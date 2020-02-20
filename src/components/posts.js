@@ -18,7 +18,7 @@ class Post extends Component {
 
             </div>
             <div className="recent-posts__topics">
-                {this.render.renderTopics()}
+                {this.renderTopics()}
             </div>
         </li>
         )
