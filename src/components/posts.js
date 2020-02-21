@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Post extends Component {
+class Posts extends Component {
     
     renderTopics(){
         let topics = this.props.associated_topics.map(( topic, index) => {
@@ -25,4 +25,4 @@ class Post extends Component {
     }
 }
 
-export default Post
+export default Posts
