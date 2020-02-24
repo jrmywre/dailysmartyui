@@ -27,4 +27,4 @@ class Home extends Component {
   }
 }
 
-export default  connect(null, actions)(Home);
+export default connect(null, actions)(Home);

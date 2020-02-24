@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AnimateHeight from 'react-animate-height';
 
-class Posts extends Component {
+class Post extends Component {
 
     constructor(props) {
         super(props)
@@ -96,4 +96,4 @@ class Posts extends Component {
     }
 }
 
-export default Posts;
+export default Post;

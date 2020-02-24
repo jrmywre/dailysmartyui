@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
-import Posts from './posts';
+import Post from './post';
 
 class ResultsPosts extends Component {
 
     renderPosts() {
         const posts = this.props.posts.map((post, index) => {
-            return <Posts type="result" key={index} {...post}/>
+            return <Post type="result" key={index} {...post}/>
         })
         return posts;
     }
