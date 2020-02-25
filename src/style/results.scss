@@ -28,8 +28,7 @@
 
     .result-post__topics > * {
         color: $color-blue-one;
-        font-size: 14px;
-        line-height: 17px;
+        @include default-font-height-size;
         font-weight: normal;
     }
 
@@ -59,8 +58,13 @@
     }
     .post-link__link a {
         color: $color-gray-one;
-        font-size: 14px;
-        line-height: 17px;
+        @include default-font-height-size;
     }
 }
+
+.no-content{
+    color: $color-gray-one;
+    @include default-font-height-size;
+}
+
 
