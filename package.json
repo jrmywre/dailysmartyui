@@ -2,6 +2,9 @@
   "name": "react-redux-router",
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
+  "engines": {
+    "node": "10.16.3"
+},
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -10,6 +13,7 @@
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git@github.com:bottega-code-school/js-builder.git"
@@ -55,7 +59,7 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^2.1.6",
     "react": "16.8.0",
     "react-animate-height": "^2.0.20",
